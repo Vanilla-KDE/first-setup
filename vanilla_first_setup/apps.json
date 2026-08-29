@@ -1,4 +1,74 @@
 {
+    "core": [
+        {
+            "name": "Ark",
+            "id": "org.kde.ark"
+        },
+        {
+            "name": "Clocks",
+            "id": "org.kde.kclock"
+        },
+        {
+            "name": "Dragon Player",
+            "id": "org.kde.dragonplayer"
+        },
+        {
+            "name": "Elisa",
+            "id": "org.kde.elisa"
+        },
+        {
+            "name": "Filelight",
+            "id": "org.kde.filelight"
+        },
+        {
+            "name": "Gwenview",
+            "id": "org.kde.gwenview"
+        },
+        {
+            "name": "Kalk",
+            "id": "org.kde.kalk"
+        },
+        {
+            "name": "Kamoso",
+            "id": "org.kde.kamoso"
+        },
+        {
+            "name": "Kate",
+            "id": "org.kde.kate"
+        },
+        {
+            "name": "KCharSelect",
+            "id": "org.kde.kcharselect"
+        },
+        {
+            "name": "Kontact",
+            "id": "org.kde.kontact"
+        },
+        {
+            "name": "KRDC",
+            "id": "org.kde.krdc"
+        },
+        {
+            "name": "KWrite",
+            "id": "org.kde.kwrite"
+        },
+        {
+            "name": "Merkuro",
+            "id": "org.kde.merkuro"
+        },
+        {
+            "name": "Okular",
+            "id": "org.kde.okular"
+        },
+        {
+            "name": "Skanpage",
+            "id": "org.kde.skanpage"
+        },
+        {
+            "name": "Weather",
+            "id": "org.kde.kweather"
+        }
+    ],
     "office": [
         {
             "name": "LibreOffice",
@@ -165,3 +235,4 @@
         }
     ]
 }
+
