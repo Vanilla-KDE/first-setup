@@ -17,4 +17,4 @@ if ! [ -z "$2" ]; then
     layout="$layout+$2"
 fi
 
-gsettings set org.gnome.desktop.input-sources sources "[('xkb', '$layout')]"
+kwriteconfig6 --file kxkbrc --group Layout --key LayoutList "$layout" --notify

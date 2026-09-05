@@ -10,4 +10,4 @@ if [ "$UID" == "0" ]; then
     exit 7
 fi
 
-gnome-control-center wifi
+systemsettings kcm_networkmanagement

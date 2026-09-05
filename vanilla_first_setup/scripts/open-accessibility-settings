@@ -10,4 +10,4 @@ if [ "$UID" == "0" ]; then
     exit 7
 fi
 
-gnome-control-center universal-access
+systemsettings kcm_access

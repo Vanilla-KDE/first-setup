@@ -10,4 +10,6 @@ if [ "$UID" == "0" ]; then
     exit 7
 fi
 
-loginctl terminate-user "$USER"
+qdbus6 org.kde.Shutdown /Shutdown org.kde.Shutdown.logout
+
+# loginctl terminate-user would not properly return to SDDM. Using ghbus instead

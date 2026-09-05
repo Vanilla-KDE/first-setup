@@ -10,5 +10,5 @@ if [ "$UID" == "0" ]; then
     exit 7
 fi
 
-/usr/bin/gsettings set "org.gnome.desktop.lockdown" "disable-lock-screen" "true"
-/usr/bin/gsettings set "org.gnome.desktop.screensaver" "lock-enabled" "false"
+kwriteconfig6 --file ~/.config/kscreenlockerrc --group Daemon --key Autolock false
+kwriteconfig6 --file ~/.config/kscreenlockerrc --group Daemon --key LockOnResume false
