@@ -59,6 +59,12 @@ def open_accessibility_settings():
 def disable_lockscreen():
     return run_script("disable-lockscreen", [])
 
+def remove_panels():
+    return run_script("remove-panels",[])
+
+def terminate_welcome():
+    return run_script("terminate-welcome",[])
+
 def setup_flatpak_remote():
     return run_script("setup-flatpak-remote", [])
 

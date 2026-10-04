@@ -53,10 +53,6 @@
             "id": "org.kde.kwrite"
         },
         {
-            "name": "Merkuro",
-            "id": "org.kde.merkuro"
-        },
-        {
             "name": "Okular",
             "id": "org.kde.okular"
         },
@@ -88,6 +84,10 @@
         {
             "name": "Resources",
             "id": "net.nokyan.Resources"
+        },
+        {
+            "name": "Fcitx 5",
+            "id": "org.fcitx.Fcitx5"
         },
         {
             "name": "Bottles",

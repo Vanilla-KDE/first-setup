@@ -172,11 +172,15 @@ class FirstSetupApplication(Adw.Application):
         if configure_system_mode:
             print("Running in configure system mode.")
             backend.disable_lockscreen()
+            backend.remove_panels()
+            backend.terminate_welcome()
         elif update_mode:
             print("Running in update mode.")
+            backend.terminate_welcome()
             backend.setup_system_deferred()
         else:
             print("Running in regular mode.")
+            backend.terminate_welcome()
             backend.setup_system_deferred()
 
         provider = Gtk.CssProvider()

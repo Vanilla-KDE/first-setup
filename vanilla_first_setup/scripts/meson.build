@@ -18,6 +18,8 @@ sources = [
   'setup-system',
   'user',
   'remove-first-setup-user',
+  'remove-panels',
+  'terminate-welcome',
 ]
 
 install_data(sources, install_dir: scriptsdir)

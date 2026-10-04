@@ -53,7 +53,7 @@ class VanillaDone(Adw.Bin):
         return
 
     def __on_tour_clicked(self, *args):
-        subprocess.Popen(["/usr/bin/vanilla-tour"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, stdin=subprocess.DEVNULL, start_new_session=True)
+        subprocess.Popen(["/usr/bin/plasma-welcome"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, stdin=subprocess.DEVNULL, start_new_session=True)
         self.__window.close()
 
     def __on_exit_clicked(self, *args):

@@ -14,5 +14,6 @@ for USER in $USERS_IN_FIRST_SETUP_GROUP; do
     fi
 done
 
+rm /etc/plasmalogin.conf
 rm /etc/systemd/system/multi-user.target.wants/remove-first-setup-user.service
 exit 0
